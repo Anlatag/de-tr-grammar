@@ -1,0 +1,2 @@
+stanza
+matplotlib  # optional, only for plots

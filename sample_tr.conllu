@@ -1,0 +1,18 @@
+# text = Kitap okundu .
+1	Kitap	kitap	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nsubj	_	_
+2	okundu	oku	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = O kitabı okuyor .
+1	O	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
+2	kitabı	kitap	NOUN	_	Case=Acc|Number=Sing|Person=3	3	obj	_	_
+3	okuyor	oku	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Zamanım olsa , gelirdim .
+1	Zamanım	zaman	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	2	nsubj	_	_
+2	olsa	ol	VERB	_	Mood=Cnd|Number=Sing|Person=3|Polarity=Pos	4	advcl	_	_
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	gelirdim	gel	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+

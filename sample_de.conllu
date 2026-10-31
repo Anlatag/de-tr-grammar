@@ -1,0 +1,25 @@
+# text = Das Buch wurde gelesen .
+1	Das	der	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Buch	Buch	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	_
+3	wurde	werden	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	gelesen	lesen	VERB	_	VerbForm=Part	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Er liest das Buch .
+1	Er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	liest	lesen	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	das	der	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Buch	Buch	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Wenn ich Zeit hätte , würde ich kommen .
+1	Wenn	wenn	SCONJ	_	_	4	mark	_	_
+2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	Zeit	Zeit	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+4	hätte	haben	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	advcl	_	_
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	würde	werden	AUX	_	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	aux	_	_
+7	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	kommen	kommen	VERB	_	VerbForm=Inf	0	root	_	_
+9	.	.	PUNCT	_	_	8	punct	_	_
+
